@@ -1,0 +1,14 @@
+{
+	"name": "@micro/config",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"main": "vite.base.js",
+	"scripts": {},
+	"devDependencies": {
+		"vite": "^7.0.4"
+	},
+	"dependencies": {
+		"vue-router": "^4.5.1"
+	}
+}

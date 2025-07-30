@@ -1,0 +1,29 @@
+import mf from '@originjs/vite-plugin-federation'
+import base from '@micro/config'
+import { defineConfig, mergeConfig } from 'vite'
+
+const port = 5002
+
+export default mergeConfig(
+	base(),
+	defineConfig({
+		server: { port },
+		preview: { port },
+		plugins: [
+			mf({
+				name: 'products',
+				filename: 'remoteEntry.js',
+				remotes: {
+					host: 'http://localhost:5000/assets/remoteEntry.js'
+				},
+				exposes: {
+					'./main': './src/main.js'
+				},
+				shared: {
+					vue: { singleton: true, eager: true },
+					'vue-router': { singleton: true, eager: true }
+				}
+			})
+		]
+	})
+)
