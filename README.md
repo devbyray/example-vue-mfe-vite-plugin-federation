@@ -33,6 +33,27 @@ pnpm run preview
 
 This will start all micro-frontend apps in preview mode. Open the host app in your browser to see the architecture in action.
 
+
+### Documentation
+
+- [Getting Started](./docs/getting-started.md)
+- [Architecture](./docs/architecture.md)
+- [Development Guide](./docs/development.md)
+- [Testing](./docs/testing.md)
+- [Deployment](./docs/deployment.md)
+- [Contributing](./docs/contributing.md)
+- [FAQ](./docs/faq.md)
+- [Project Structure](./docs/project-structure.md)
+
+See each app's README for app-specific details.
+
+#### Coding Standards & Guidelines
+- [Coding Instructions](.github/instructions/coding.instructions.md)
+- [UI Guidelines](.github/instructions/ui-guidelines.instructions.md)
+- [Security Instructions](.github/instructions/security.instructions.md)
+
+---
+
 ### Learn More
 - [OriginJS vite-plugin-federation](https://github.com/originjs/vite-plugin-federation)
 - [Vue 3 Documentation](https://vuejs.org/)
