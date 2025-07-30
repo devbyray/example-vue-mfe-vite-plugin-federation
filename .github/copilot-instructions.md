@@ -5,9 +5,9 @@
 
 ## 🧱 Project Overview
 
-This repository is a starter kit for rapid prototyping with modern web technologies. It aims to provide a maintainable, accessible, and efficient foundation for full-stack development.
+This repository is an example project demonstrating how to build a module-federated micro-frontend architecture using Vue 3 and Vite within a monorepo managed by PNPM. It showcases independent micro-frontend apps, file-based routing, and code sharing via Module Federation, providing a scalable and maintainable foundation for modern web applications.
 
-**Tech stack:** Vue.js 3 (frontend), Node.js (backend), Vitest (testing), CSS modules.
+**Tech stack:** Vue.js 3 (frontend), Vite (build tool), Module Federation (via OriginJS vite-plugin-federation), PNPM (monorepo management), Vitest (testing), CSS modules.
 
 
 

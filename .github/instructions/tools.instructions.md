@@ -7,9 +7,11 @@
 
 ## 🧰 Tools, Libraries & Frameworks
 
-- Vue.js 3
-- Nuxt.js 3
-- Node.js 22
-- Vitest (unit/integration testing)
-- ESLint, Prettier
-- .Net 9
+- Vue.js 3 — Core frontend framework
+- Vite — Build tool and dev server
+- OriginJS vite-plugin-federation — Module Federation for Vite
+- pnpm — Monorepo and package management
+- Vitest — Unit and integration testing
+- ESLint — Linting
+- Prettier — Code formatting
+- Node.js 22+ — Runtime
